@@ -8,8 +8,13 @@ twitter_username: obsolism
 github_username: obsolism
 
 # Build settings
-theme: minima
+remote_theme: broccolini/swiss
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 source: ./obsolism
+
+collections:
+  posts:
+    output: false
