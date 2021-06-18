@@ -1,0 +1,15 @@
+title: Obsolism
+email: N/A
+description: >-
+  An open-source religion for the digital age.
+baseurl: ""
+url: "https://obsolism.org"
+twitter_username: obsolism
+github_username: obsolism
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+source: ./obsolism
