@@ -4,17 +4,19 @@ description: >-
   An open-source religion for the digital age.
 baseurl: ""
 url: "https://obsolism.org"
-twitter_username: obsolism
+github_repo: obsolism
 github_username: obsolism
 
+social_link: twitter
+social_username: obsolism
+
 # Build settings
-remote_theme: broccolini/swiss
+theme: jekyll-theme-primer
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-source: ./obsolism
+source: ./
+exclude: [obsolism]
 
-collections:
-  posts:
-    output: false
+keep_files: [images]
